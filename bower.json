@@ -1,10 +1,10 @@
 {
-  "name": "sex-modal",
+  "name": "sweetmodal",
   "authors": [
     "Kchan Zen <kchanzen@gmail.com> (http://www.kchanzen.com)"
   ],
   "description": "Just a modal",
-  "main": "lib/sex-modal.js",
+  "main": "lib/sweetmodal.js",
   "keywords": [
     "modal"
   ],

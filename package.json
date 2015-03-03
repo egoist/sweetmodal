@@ -1,8 +1,8 @@
 {
-  "name": "sex-modal",
+  "name": "sweetmodal",
   "version": "0.0.0",
-  "description": "Sex Modal is so s(ex)imple",
-  "main": "lib/sex-modal.js",
+  "description": "Just a modal",
+  "main": "lib/sweetmodal.js",
   "directories": {
     "example": "example"
   },
@@ -10,7 +10,7 @@
     "test": "npm test"
   },
   "keywords": [
-    "alert",
+    "modal",
     "javascript"
   ],
   "author": "Kchan Zen <kchanzen@gmail.com> (http://www.kchanzen.com/)",
