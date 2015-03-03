@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>kchanzen/sex-modal examples</title>
+  <link rel="stylesheet" type="text/css" href="../lib/sweetmodal.css">
+  <style type="text/css">
+  body {
+    margin: 0;
+  }
+  .main {
+    padding: 100px;
+    text-align: center;
+  }
+  header {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    background: #f9f9f9;
+  }
+  .title {
+    font-size: 24px;
+  }
+  .modal {
+    display: none;
+  }
+  .bottom {
+    position: absolute;
+    bottom: 0;
+    z-index: 999999;
+  }
+  </style>
+</head>
+<body>
+<header>
+  <h1 class="title">sm(':D')</h1>
+</header>
+<div class="main">
+<div class="bottom">
+<button onclick="sm('.modal')">show modal</button>
+<button onclick="sm.close()">close modal</button>
+</div>
+<div class="modal">wow</div>
+</div>
+<script src="../lib/sweetmodal.js"></script>
+</body>
+</html>

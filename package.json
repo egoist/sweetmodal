@@ -1,0 +1,27 @@
+{
+  "name": "sex-modal",
+  "version": "0.0.0",
+  "description": "Sex Modal is so s(ex)imple",
+  "main": "lib/sex-modal.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "alert",
+    "javascript"
+  ],
+  "author": "Kchan Zen <kchanzen@gmail.com> (http://www.kchanzen.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "babelify": "^5.0.3",
+    "browserify": "^9.0.3",
+    "gulp": "^3.8.11",
+    "gulp-stylus": "^2.0.1"
+  },
+  "dependencies": {
+    "core-js": "^0.6.1"
+  }
+}

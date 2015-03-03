@@ -1,0 +1,21 @@
+{
+  "name": "sex-modal",
+  "authors": [
+    "Kchan Zen <kchanzen@gmail.com> (http://www.kchanzen.com)"
+  ],
+  "description": "Just a modal",
+  "main": "lib/sex-modal.js",
+  "keywords": [
+    "modal"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/kchanzen/greet",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src"
+  ]
+}
