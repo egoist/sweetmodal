@@ -20,8 +20,5 @@
     "browserify": "^9.0.3",
     "gulp": "^3.8.11",
     "gulp-stylus": "^2.0.1"
-  },
-  "dependencies": {
-    "core-js": "^0.6.1"
   }
 }
