@@ -1,7 +1,13 @@
+// SweetModal
+// 2015 (c) - Kchan Zen 
+// github.com/kchanzen/sweetmodal
+
 (window, document, undefined) => {
   let modalClass = '.sm-modal',
     options = {
-      element: null
+      element: null,
+      allowOutsideClick: null,
+      from: null
     }
 
   let getModal = () => {
@@ -33,7 +39,7 @@
 
     let $modal = getModal(),
     $smWrap = document.querySelector('.sm-wrapper')
-
+    $modal.classList.add('sm-modal-' + options.from)
     $modal.innerHTML = document.querySelector(options.element).innerHTML
 
     setTimeout(() => {
@@ -56,16 +62,46 @@
 
   }
 
-  let sm = (element = nul) => {
+  document.onclick = (e) => {
 
-    options.element = element;
+    let target = e.target,
+      isModal = target.classList.contains('sm-wrapper')
+
+    if (isModal && options.allowOutsideClick) {
+      sm.close()
+    }
+
+  }
+
+  let sm = (element = null, allowOutsideClick = false, from = 'top') => {
+
+    options.element = element
+    options.allowOutsideClick = allowOutsideClick
+    options.from = from
 
     showModal()
+
   }
 
   sm.close = () => {
 
+    if (!document.querySelector('.sm-modal')) {
+      return false
+    }
+
     return removeModal()
+
+  }
+
+  sm.top = (element = null, allowOutsideClick = false) => {
+
+    return sm(element, allowOutsideClick, 'top')
+
+  }
+
+  sm.bottom = (element = null, allowOutsideClick = false) => {
+
+    return sm(element, allowOutsideClick, 'bottom')
 
   }
 

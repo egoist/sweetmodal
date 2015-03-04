@@ -2,7 +2,7 @@
 
 not **Sweet Model** :cry:
 
-You probably want an example, check out [here](/example/index.html)
+You probably want a demo, check out [here](http://kchanzen.github.io/sweetmodal)
 
 ## Usage
 
@@ -11,8 +11,11 @@ WIP. uncomplete and buggy.
 damn simple to use, like this:
 
 ```javascript
-sm('.modal') // require your modal class name
-sm.close()   // job is all done so end its life
+sm('.modal')        // Require your modal class name
+sm('.modal', true)  // Close when click ouside the modal element
+sm.bottom('.modal') // Call the modal from the bottom
+sm.close()          // Job is all done so end its life
+
 ```
 
 ## Contribute

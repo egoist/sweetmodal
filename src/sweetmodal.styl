@@ -22,7 +22,7 @@
 
 .sm-modal
   position relative
-  top 100vmin
+  top 0
   max-width 600px
   margin 0 auto
   background-color white
@@ -31,6 +31,12 @@
   //box-shadow 0 0 14px rgba(0,0,0,.24),0 14px 28px rgba(0,0,0,.48)
   z-index 9998
   transition top 300ms ease
+
+.sm-modal-top
+  top -100vmin
+
+.sm-modal-bottom
+  top 100vmin
 
 .sm-modal-center
   top 50px
