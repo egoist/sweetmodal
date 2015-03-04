@@ -8,7 +8,7 @@ You probably want a demo, check out [here](http://kchanzen.github.io/sweetmodal)
 
 WIP. uncomplete and buggy.
 
-damn simple to use, like this:
+dead simple to use, like this:
 
 ```javascript
 sm('.modal')        // Require your modal class name

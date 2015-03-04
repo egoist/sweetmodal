@@ -3,19 +3,20 @@
   "authors": [
     "Kchan Zen <kchanzen@gmail.com> (http://www.kchanzen.com)"
   ],
-  "description": "Just a modal",
+  "description": "make modal sweet",
   "main": "lib/sweetmodal.js",
   "keywords": [
     "modal"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/kchanzen/greet",
+  "homepage": "https://github.com/kchanzen/sweetmodal",
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
     "test",
     "tests",
-    "src"
+    "src",
+    "*.*"
   ]
 }
