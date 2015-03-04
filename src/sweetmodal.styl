@@ -1,3 +1,8 @@
+*
+  -webkit-box-sizing border-box
+  -moz-box-sizing border-box
+  box-sizing border-box
+
 .sm-wrapper
   position fixed
   background-color rgba(41,47,51,0.9)
@@ -18,11 +23,11 @@
 .sm-modal
   position relative
   top 100vmin
-  max-width 800px
+  max-width 600px
   margin 0 auto
   background-color white
-  min-height 300px
   border-radius 2px
+  overflow hidden
   //box-shadow 0 0 14px rgba(0,0,0,.24),0 14px 28px rgba(0,0,0,.48)
   z-index 9998
   transition top 300ms ease
@@ -30,3 +35,23 @@
 .sm-modal-center
   top 50px
   transition top 300ms ease
+
+.sm-modal-header
+  text-align center
+  border-bottom 1px solid #e2e2e2
+  padding 15px 0
+  font-size 16px
+
+.sm-modal-main
+  padding 15px
+  background-color #f8f8f5
+
+.sm-modal-textarea,.sm-modal-input
+  outline none
+  padding 15px
+  font-size 15px
+  border 1px solid #e2e2e2
+  border-radius 2px
+  max-width 100%
+  width 100%
+  resize none
